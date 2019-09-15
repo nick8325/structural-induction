@@ -15,6 +15,7 @@ module Induction.Structural.Linearise
 
 import Induction.Structural.Types
 
+import Prelude hiding ((<>))
 import Text.PrettyPrint hiding (Style)
 
 -- | Functions for linearising constructors (`linc`), variables (`linv`) and
